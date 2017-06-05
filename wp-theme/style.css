@@ -1,0 +1,68 @@
+/*
+Theme Name: Adams Law Firm
+Theme URI: http://lampinlaw.com
+Description: Lampin Law Firm
+Author: Lampin Law Firm
+Version: 1.0
+Tags: None
+*/
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;vertical-align:baseline;background:transparent}olX,ulX{list-style:none}blockquote{quotes:none}blockquote:before,blockquote:after {content:'';content:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}a img{border:none}article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block}audio,canvas,video{display:inline-block}audio:not([controls]){display:none;height:0}[hidden],template{display:none}html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body,figure{margin:0}a{background:transparent}a:focus{outline:thin dotted}a:active,a:hover{outline:0}h1{font-size:2em;margin:0.67em 0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight: bold}dfn{font-style:italic}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}mark{background:#ff0;color:#000}code,kbd,pre,samp{font-family:monospace,serif;font-size:1em}pre{white-space:pre-wrap;}q{quotes:"\201C" "\201D" "\2018" "\2019"}small{font-size: 80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-0.5em}sub{bottom: -0.25em}img{border: 0}svg:not(:root){overflow: hidden}fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em}legend{border:0;padding:0}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0}button,input{line-height:normal}button,select {text-transform: none}button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor: default}input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0}input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}textarea{overflow:auto;vertical-align:top}
+/** Default Galleries **/
+.gallery 						 {display: -webkit-flex; display: flex; -webkit-flex-wrap: wrap; flex-wrap: wrap; margin-bottom: 1.1em;}
+.gallery-item 					 {float: left; margin: 0 5px 1.1em;}
+.gallery-item a					 {display: block;}
+.gallery-item img				 {display: block; max-width: 100%; height: auto; margin: 0 auto;}
+.gallery-columns-1 .gallery-item {width: 100%;}
+.gallery-columns-2 .gallery-item {width: 50%; -webkit-width: calc(100% * (1/2) - 10px); width: calc( 50% - 10px );}
+.gallery-columns-3 .gallery-item {width: 33.33%; -webkit-width: calc(100% * (1/3) - 10px); width: calc( 33.33% - 10px );}
+.gallery-columns-4 .gallery-item {width: 25%; -webkit-width: calc(100% * (1/4) - 10px); width: calc( 25% - 10px );}
+.gallery-columns-5 .gallery-item {width: 20%; -webkit-width: calc(100% * (1/5) - 10px); width: calc( 20% - 10px );}
+.gallery-columns-6 .gallery-item {width: 16.66%; -webkit-width: calc(100% * (1/6) - 10px); width: calc( 16.66% - 10px );}
+.gallery-columns-7 .gallery-item {width: 14.28%; -webkit-width: calc(100% * (1/7) - 10px); width: calc( 14.28% - 10px );}
+.gallery-columns-8 .gallery-item {width: 12.5%; -webkit-width: calc(100% * (1/8) - 10px); width: calc( 12.50% - 10px );}
+.gallery-columns-9 .gallery-item {width: 11.11%; -webkit-width: calc(100% * (1/9) - 10px); width: calc( 11.11% - 10px );}
+.gallery-caption 				 {display: block;}
+
+.wpcform .text			{padding: 4px 6px; box-sizing: border-box;}
+.wpcform .full			{width: 100%;}
+.wpcform .half			{width: 49%;}
+.wpcform .third			{width: 32%;}
+.wpcform .mright		{margin-right: 2%;}
+.wpcform .wpcf7-not-valid			{border-color: #F00;}
+.wpcform span.wpcf7-not-valid-tip	{display: none;}
+
+/*
+#carouselWrapper .carouselContent h1 	{margin-bottom: 8px; font-size: 40px; line-height: 36px; color: #254b62; font-family: 'Roboto Condensed', sans-serif;}
+#carouselWrapper .carouselContent h2 	{font-size: 20px; color: #6692aa; font-weight: 400; font-family: 'Roboto Slab', serif;}
+*/
+#carouselWrapper .carouselContent p.heading 	{margin-bottom: 8px; font-size: 40px; line-height: 36px; color: #254b62; font-family: 'Roboto Condensed', sans-serif;}
+#carouselWrapper .carouselContent p.attorney 	{font-size: 20px; color: #6692aa; font-weight: 400; font-family: 'Roboto Slab', serif;}
+
+/*
+#historyContent h1							{margin-bottom: 30px; font-size: 40px; line-height: 36px; color: #fff;}
+*/
+#historyContent p.history							{margin-bottom: 30px; font-size: 40px; line-height: 36px; color: #fff;     font-family: 'Roboto Condensed', sans-serif;}
+
+
+#content .simpleStyles .h1-fix {
+    font-size: 24px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#acsContent	.h1-fix {
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 36px;
+font-family: 'Roboto Condensed', sans-serif;
+font-size: 40px;
+    font-weight: 400;
+}
+
+#homeServices .h1-fix{
+color: #254b62;
+    margin-bottom: 30px;
+font-size: 40px;
+    color: #254b62;
+    font-family: 'Roboto Condensed', sans-serif;
+text-align:center;
+}
