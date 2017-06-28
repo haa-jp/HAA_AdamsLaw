@@ -422,7 +422,7 @@ Row 3
 .testimonials {
   text-shadow: 2px 2px 3px black; }
   .testimonials p {
-    line-height: 145%;
+    line-height: 120%;
     font-size: .9rem; }
 
 /*===================================================
@@ -515,11 +515,11 @@ Row 5
   font-weight: 700; }
 
 .explain-cta .ex-cta-in {
-  float: left;
   text-align: center; }
 
 .explain-cta h3 {
-  font-size: 2.5rem; }
+  font-size: 3.5rem;
+  text-align: center; }
   .explain-cta h3 a {
     color: #254b62; }
 
@@ -591,6 +591,12 @@ HAA Desktop Stuff
     font-size: 5.1rem;
     color: #183a4e;
     font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 100%; }
+  .small-hero {
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: #183a4e;
     font-family: "Roboto Condensed", sans-serif; }
   .r3 {
     padding-bottom: 1rem; }
