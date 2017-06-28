@@ -40,9 +40,10 @@ include('parts/Top-crim.php');
 
         <div class="columns small-12 large-7 r3-c1 desk-show">
 
-        <h2>What you need to know!</h2>
             
-            <img src="http://via.placeholder.com/500x350?text=Missing" alt="" class="" style="width:100%;">
+            <?php
+include('parts/what-you-need-crim.php');
+?>
 
         </div>
 

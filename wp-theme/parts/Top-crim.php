@@ -208,11 +208,11 @@ if ($iphone || $android || $palmpre || $ipod || $ipad || $berry == true) {
 
     <div class="row r1 align-middle"> 
 
-        <div class="columns small-12 large-3 r1-c1">
+        <div class="columns small-12 large-4 r1-c1">
 
             <div class="desk-show">
 
-                <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/logo.png" class="r1-logo desk-show"
+                <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/logo.jpg" class="r1-logo desk-show"
                 alt="Adams Law Firm"/>
 
             </div>
@@ -223,7 +223,7 @@ if ($iphone || $android || $palmpre || $ipod || $ipad || $berry == true) {
 
                     <div class="columns small-12">
 
-                        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/logo.png" class="r1-logo"
+                        <img src="<?php echo get_stylesheet_directory_uri();?>/assets/images/logo.jpg" class="r1-logo"
                         alt="Adams Law Firm"/>
 
                     </div>
@@ -246,7 +246,7 @@ if ($iphone || $android || $palmpre || $ipod || $ipad || $berry == true) {
 
         </div>
 
-        <div class="column large-5"></div>
+        <div class="column large-4"></div>
 
         <?php // include (__DIR__.'/r1-mid-'.$ver.'.php');?>
 
@@ -314,6 +314,12 @@ if ($iphone || $android || $palmpre || $ipod || $ipad || $berry == true) {
     <div class="row r2 mobile-show">
 
         <div class="column small-12 r2-c1">
+
+        <div class="hero-text">
+
+             0$ Down DWI/DUI Attorney
+
+         </div>
 
             <h1>
                 <?php echo $camp ?>

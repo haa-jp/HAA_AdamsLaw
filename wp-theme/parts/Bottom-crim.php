@@ -68,8 +68,7 @@
                                     <p>The Choice of an attorney is an important one and should not be based solely upon advertisements.
                                         Please
                                         be aware that use of this website, sending of forms, or sending of email to our law firm or a
-                                        specific
-                                        attorney, does not establish an attorney-client relationship nor begin a lawsuit. Communication
+                                        specific attorney, does not establish an attorney-client relationship nor begin a lawsuit. Communication
                                         through
                                         this website is not a secure method of communication and may be copied or intercepted by a third party
                                         as
@@ -77,16 +76,14 @@
                                         co-counsel
                                         depending on the nature and venue of a particular case. 
                                     </p>
-                                    <p>
-                                        <span style="font-family:serif; font-size:60%; position:relative; top:-10px;">†</span>This rating is associated with attorney Charles Lampin. 
-                                    </p>
-                                    <p><a href="/disclaimer//" class="haaTrace">More
-                                        Disclaimers</a>.</p>
 
-                                        <p>Copyright © <?php echo date('Y'); ?> The Lampin Law Firm, LLC. All Rights Reserved - <a href="/sitemap//" class="haaTrace">Sitemap</a></p>
-                                        <p>
-                                            We are proud to serve the following counties: St. Louis, St. Charles, &amp; Lincoln. Cities served include St. Louis, St. Charles, St. Peters, O’Fallon, Wentzville, Cottleville, Troy, Moscow Mills, Ferguson, Hazelwood, Creve Coeur, Clayton, Kirkwood, Maplewood, Wildwood, Bridgeton, Jennings, Hillsboro, Warrenton, Hermann, Maryland Heights, Montgomery City, Town and Country.
-                                        </p>
+                                    <p>
+                                       © <?php echo date('Y'); ?>. The content on this page is owned by us and/or our licensors. Do not copy any content (including images) without our consent. <br>
+                                    </p>
+
+                                    <div class="wrap"> <p>Geos go here</p></div>
+                                    
+                                   
 
 
 
@@ -180,39 +177,54 @@
         }, 100);
     </script>
 
-    <script type="text/javascript" src="//solutions.invocacdn.com/js/pnapi_integration-latest.min.js"></script>
+     <script>
+   //I had to make it select the nonexistent class of 'fake' because it refused to toggle on a single class in the script... It's really strange!
+   if (jQuery(window).width() < 1024) {
+      console.log('mobile');
 
-    <script type="text/javascript">
-// //Acquires Google Analytics Client ID
-//     function getClientId () {
-//         // If ga is defined, check for the clientId and return it
-//         if (typeof ga !== 'undefined' && typeof ga.getAll === 'function') {
+      jQuery('#wyn-toggle-1,.fake').click(function() {
+         jQuery('#wyn-reveal-1,.wyn-statement-1').toggle('slow');
+         console.log('wyn-mobile-1-fire');
+      });
+      jQuery('#wyn-toggle-2,.fake').click(function() {
+         jQuery('#wyn-reveal-2,.wyn-statement-2').toggle('slow');
+      });
+      jQuery('#wyn-toggle-3,.fake').click(function() {
+         jQuery('#wyn-reveal-3,.wyn-statement-3').toggle('slow');
+      });
+      jQuery('#wyn-toggle-4,.fake').click(function() {
+         jQuery('#wyn-reveal-4,.wyn-statement-4').toggle('slow');
+      });
+      jQuery('#wyn-toggle-5,.fake').click(function() {
+         jQuery('#wyn-reveal-5,.wyn-statement-5').toggle('slow');
+      });
+      jQuery('#wyn-toggle-6,.fake').click(function() {
+         jQuery('#wyn-reveal-6,.wyn-statement-6').toggle('slow');
+      });
+   }
+   else {
+      console.log('desk');
 
-//             var clientId = ga.getAll()[0].get('clientId');
-//             return clientId;
-//             // otherwise, return false so waitFor knows to try again for defined wait time
-//         } else {
-//             return false;
-//         }
-//     };
-// //Calls Invoca DNI
-// function callInvoca(cid) {
-//     //Stores Google Client Id
-//     var invocaParams = {
-//         g_cid   : cid
-//     };
-//     //Dynamic Number Insertion Function
-//     Invoca.PNAPI.integration({
-//         networkId: 1263,
-//         numberToReplace : "888.685.3138, 855.468.4878, 216.289.4740", // LP-Swap Target, tool-Free, Local
-//         cookieDays : 30,
-//         campaignIdOverrideParam: "geo", // Nager-234, Nager-330, Nager-216
-//         requiredParams: {gclid: "*"},
-//         poolParams: invocaParams //Stored g_cid
-//     });
-// }
-// //Function to run the acquisition of g_cid before running Dynamic Number Insertion
-// Invoca.Tools.waitFor(getClientId, callInvoca, 'noCid', 1000) //wait time in MS
+      jQuery('#wyn-toggle-1,.fake').click(function() {
+         jQuery('#wyn-reveal-1,.fake').toggle('slow');
+      console.log('click desk 1');
+      });
+      jQuery('#wyn-toggle-2,.fake').click(function() {
+         jQuery('#wyn-reveal-2,.fake').toggle('slow');
+      });
+      jQuery('#wyn-toggle-3,.fake').click(function() {
+         jQuery('#wyn-reveal-3,.fake').toggle('slow');
+      });
+      jQuery('#wyn-toggle-4,.fake').click(function() {
+         jQuery('#wyn-reveal-4,.fake').toggle('slow');
+      });
+      jQuery('#wyn-toggle-5,.fake').click(function() {
+         jQuery('#wyn-reveal-5,.fake').toggle('slow');
+      });
+      jQuery('#wyn-toggle-6,.fake').click(function() {
+         jQuery('#wyn-reveal-6,.fake').toggle('slow');
+      });
+   }
 </script>
 
 

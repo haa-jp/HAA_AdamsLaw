@@ -319,7 +319,8 @@ Row 3
 .info-region h3 {
   font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 1.5rem; }
+  font-size: 1.2rem;
+  padding-bottom: .5rem; }
 
 .info-region p {
   line-height: 1.2;
@@ -327,6 +328,8 @@ Row 3
 
 .info-region .row {
   border-bottom: 2px solid #555; }
+  .info-region .row .row {
+    border: none; }
 
 .info-region .cta {
   padding-right: 0;
@@ -374,6 +377,9 @@ Row 3
   -webkit-transition: all 0.5s ease;
   transition: all 0.5s ease; }
 
+.info-region .qs {
+  padding-top: 1rem; }
+
 .info-region .r3-sl-cta a:hover {
   background-color: #004bcc; }
 
@@ -412,6 +418,12 @@ Row 3
 
 #wyn-reveal-1, #wyn-reveal-2, #wyn-reveal-3, #wyn-reveal-4 {
   display: none; }
+
+.testimonials {
+  text-shadow: 2px 2px 3px black; }
+  .testimonials p {
+    line-height: 145%;
+    font-size: .9rem; }
 
 /*===================================================
 
@@ -598,7 +610,7 @@ Row 1
     margin-top: 0 !important; }
   body {
     background-color: #555;
-    background: url("../../assets/images/bg-mob.png") no-repeat center center fixed;
+    background: none;
     -webkit-background-size: cover;
             background-size: cover; }
   .desk-show {
@@ -644,6 +656,11 @@ Row 1
   .r1-c3 h2 {
     font-size: 1.5rem;
     margin-bottom: 8px; }
+  .hero-text {
+    font-size: 1.8rem;
+    color: #183a4e;
+    font-weight: 700;
+    font-family: "Roboto Condensed", sans-serif; }
   /*===================================================
 
   Row 2 Responsive
@@ -653,8 +670,8 @@ Row 1
     -webkit-background-size: 90% 90%;
             background-size: 90%;
     background-position: center bottom;
-    padding: 3rem 0 .25rem 0;
-    margin-top: 1rem; }
+    padding: 0rem 0 .25rem 0;
+    margin-top: 0rem; }
   .r2 h4 {
     position: relative;
     font-size: .7rem;
@@ -693,7 +710,8 @@ Row 1
 
   =====================================================*/
   .r3 {
-    padding-top: 0; }
+    padding-top: 0;
+    background-color: #313131; }
   .r3 .align-middle {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -726,7 +744,8 @@ Row 1
     list-style-position: inside;
     margin: 0; }
   .r3 .r3-c2 h2 {
-    font-size: 2.2rem; }
+    font-size: 2.2rem;
+    padding-top: 5px; }
   .r3-c2 ul li {
     margin-bottom: 8px;
     font-size: 1.1rem;
@@ -736,6 +755,8 @@ Row 1
     text-align: center; }
   .info-region .row:first-child {
     border-top: 2px solid #555; }
+  .testimonials p {
+    text-align: left; }
   /*===================================================
 
   Row 4 Responsive
