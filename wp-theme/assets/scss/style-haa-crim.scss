@@ -1071,6 +1071,8 @@ p{
   color:#183a4e;
   font-weight:700;
   font-family: "Roboto Condensed", sans-serif;
+  line-height:100%;
+  margin-top:.5rem;
 }
 
 .small-hero{
@@ -1146,7 +1148,8 @@ text-align:center;
 
   .grey-grad h1{
     margin-bottom:0;
-    font-size:1.4rem;
+    font-size:1.8rem;
+    padding-bottom:.5rem;
   }
 
   .r2-c3 {
@@ -1172,7 +1175,7 @@ text-align:center;
   =====================================================*/
   .r3 {
     padding-top:0;
-    background-color:#313131;
+    background-color:#fff;
   }
 
   .r3 .align-middle{
@@ -1197,15 +1200,24 @@ text-align:center;
     padding:8px 1px;
   }
 
-  .info-region h3{
+  .info-region {
+
+    .qs{
+      padding-top:.5rem;
+    }
+
+    h3{
     font-size:1.2rem;
-    margin:10px 0;
+    margin:0px 0px;
   }
+}
 
   .r3 h2{
     font-size:1.7rem;
-    color:$col-2;
+    color:$col-1;
+    font-family: "Roboto Condensed", sans-serif;
     text-shadow:none;
+    font-style:inherit;
   }
 
   .r3-c1 {
@@ -1222,12 +1234,15 @@ text-align:center;
 
   .r3-c2 {
     text-align:center;
+    background-color:$col-1;
   }
+
+
 
   .r3-c2 ul{
     list-style-position:inside;
     margin:0;
-  }
+  } 
 
   .r3 .r3-c2 h2{
     font-size:2.2rem;
@@ -1254,6 +1269,8 @@ text-align:center;
     .row:first-child{
       border-top:2px solid #555;
     }
+
+
   }
 
   .r3-c3 {
@@ -1341,6 +1358,11 @@ text-align:left;
     p{
 
     }
+
+    h3{
+      font-size:1.3rem;
+      text-align:center;
+    }
   }
 
   .r5 .columns{
@@ -1382,6 +1404,10 @@ text-align:left;
 
   .r5-c6 {
 
+  }
+
+  .r5-bg-wrap{
+    background-color:#fff;
   }
 
   /*===================================================

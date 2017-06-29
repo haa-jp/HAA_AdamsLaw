@@ -246,18 +246,18 @@ if ($iphone || $android || $palmpre || $ipod || $ipad || $berry == true) {
 
         </div>
 
-        <div class="column large-4"></div>
+    
 
         <?php // include (__DIR__.'/r1-mid-'.$ver.'.php');?>
 
-        <div class="columns small-12  large-4 r1-c3">
+        <div class="columns small-12  large-8 r1-c3">
 
             <div class="desk-show">
 
-                <h2><?php echo $phone ?><br>
+                <h2>
 
-                   FREE CONFIDENTIAL
-                   CONSULTATION!
+                Call Us Now <?php echo $phone ?><br>
+                <span>FREE CONFIDENTIAL CONSULTATION!</span>
 
                </h2>
 
@@ -284,7 +284,13 @@ if ($iphone || $android || $palmpre || $ipod || $ipad || $berry == true) {
 
          <div class="hero-text">
 
-             0$ Down DWI/DUI Attorney
+             0$ Down DWI/DUI Attorney<sup>*</sup>
+
+         </div>
+
+         <div class="small-hero">
+             
+Get Help Now, Pay Later!<sup>*</sup>
 
          </div>
 
@@ -321,8 +327,14 @@ if ($iphone || $android || $palmpre || $ipod || $ipad || $berry == true) {
 
          </div>
 
+          <div class="small-hero">
+             
+Get Help Now, Pay Later!<sup>*</sup>
+
+         </div>
+
             <h1>
-                <?php echo $camp ?>
+                <?php echo $camp ?><sup>*</sup>
 
             </h1>
 

@@ -666,7 +666,9 @@ Row 1
     font-size: 1.8rem;
     color: #183a4e;
     font-weight: 700;
-    font-family: "Roboto Condensed", sans-serif; }
+    font-family: "Roboto Condensed", sans-serif;
+    line-height: 100%;
+    margin-top: .5rem; }
   .small-hero {
     font-size: 1.3rem;
     font-weight: 700;
@@ -714,7 +716,8 @@ Row 1
             background-size: cover; }
   .grey-grad h1 {
     margin-bottom: 0;
-    font-size: 1.4rem; }
+    font-size: 1.8rem;
+    padding-bottom: .5rem; }
   /*===================================================
 
   Row 3 Responsive
@@ -722,7 +725,7 @@ Row 1
   =====================================================*/
   .r3 {
     padding-top: 0;
-    background-color: #313131; }
+    background-color: #fff; }
   .r3 .align-middle {
     -webkit-align-self: center;
     -ms-flex-item-align: center;
@@ -738,19 +741,24 @@ Row 1
     display: flex;
     font-size: .8rem;
     padding: 8px 1px; }
+  .info-region .qs {
+    padding-top: .5rem; }
   .info-region h3 {
     font-size: 1.2rem;
-    margin: 10px 0; }
+    margin: 0px 0px; }
   .r3 h2 {
     font-size: 1.7rem;
-    color: #6692aa;
-    text-shadow: none; }
+    color: #254b62;
+    font-family: "Roboto Condensed", sans-serif;
+    text-shadow: none;
+    font-style: inherit; }
   .r3-r1 h5 {
     font-size: .9rem; }
   .r3-r1 .sl-cta {
     padding: 10px 0; }
   .r3-c2 {
-    text-align: center; }
+    text-align: center;
+    background-color: #254b62; }
   .r3-c2 ul {
     list-style-position: inside;
     margin: 0; }
@@ -795,6 +803,9 @@ Row 1
   .r5 {
     border: none;
     padding: 0 15px; }
+    .r5 h3 {
+      font-size: 1.3rem;
+      text-align: center; }
   html .r5 .r5-c1 {
     border-bottom: none; }
   .r5-c1 {
@@ -805,6 +816,8 @@ Row 1
     font-size: 1.7rem; }
   .r5-c2 {
     text-align: left; }
+  .r5-bg-wrap {
+    background-color: #fff; }
   /*===================================================
 
   Row 6 Responsive

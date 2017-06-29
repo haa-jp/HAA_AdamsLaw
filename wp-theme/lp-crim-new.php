@@ -47,7 +47,7 @@ include('parts/what-you-need-crim.php');
 
         </div>
 
-        <div class="columns small-12 large-5 r3-c2">
+        <div class="columns small-12 large-5 r3-c2 show-for-medium">
 
             <?php
             include('parts/testimonials.php');
