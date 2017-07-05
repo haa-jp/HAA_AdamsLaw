@@ -10,7 +10,9 @@
     <div class="row r3-r1">
 
         <div class="columns small-1 blue-bg">
+
             &nbsp;
+            
         </div>
 
         <div class="columns small-11 large-11 qs">
@@ -43,10 +45,92 @@
 
     </div>
 
-    <div class="row r3-r4">
+<div class="row r3-r2">
+
+    <div class="columns small-1 blue-bg">
+
+        &nbsp;
+
+    </div>
+
+    <div class="columns small-11 large-11 qs">
+
+        <h3 class="show-for-medium">I was arrested for DWI.  Why did they take my license plates?</h3>
+
+        <div class="row">
+
+            <div class="columns small-9 large-9">
+
+            <h3  class="hide-for-medium">I was arrested for DWI.  Why did they take my license plates?</h3>
+
+                <p class="desk-show wyn-statement-3">Minnesota will confiscate license plates and issue special plates if you are arrested for DWI and have one aggravating factor.  <span id="wyn-reveal-3">Even a first offense DWI can trigger special plate requirements. These special plates are referred to as “whiskey plates” because they begin with the letter W.
+                </span></p>
+
+            </div>
+
+            <div class="columns small-3 large-3 cta align-middle">
+
+                <div class="bot-align">
+
+                    <a href="#/" id="wyn-toggle-3" class="haa-track">Read More</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+<div class="row r3-r3">
+
+    <div class="columns small-1 blue-bg">
+
+        &nbsp;
+
+    </div>
+
+    <div class="columns small-11 large-11 qs">
+
+     <h3 class="show-for-medium">Help, they’ve taken my car and are forfeiting it. Why?</h3>
+
+     <div class="row">
+
+        <div class="columns small-9 large-9">
+
+        <h3 class="hide-for-medium">Help, they’ve taken my car and are forfeiting it. Why?</h3>
+
+            <p class="desk-show wyn-statement-4">The state of Minnesota will seize and forfeit a motor vehicle for several offenses including a DWI with any two aggravating factors. 
+                <span id="wyn-reveal-4">
+                 This can include two prior convictions, one prior and over .16  etc.  A forfeiture can be challenged as a separate civil suit but special time constraints exist, so you must act quickly to reserve jurisdiction.
+             </span></p>
+
+         </div>
+
+         <div class="columns small-3 large-3 cta align-middle">
+
+            <div class="bot-align">
+
+                <a href="#/" id="wyn-toggle-4" class="haa-track">Read More</a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
+
+ <div class="row r3-r4">
 
         <div class="columns small-1 blue-bg">
+
             &nbsp;
+
         </div>
 
         <div class="columns small-11 large-11 qs">
@@ -86,84 +170,5 @@
 </div>
 
 </div>
-
-
-<div class="row r3-r2">
-
-    <div class="columns small-1 blue-bg">
-        &nbsp;
-    </div>
-
-    <div class="columns small-11 large-11 qs">
-
-        <h3 class="show-for-medium">I was arrested for DWI.  Why did they take my license plates?</h3>
-
-        <div class="row">
-
-            <div class="columns small-9 large-9">
-
-            <h3  class="hide-for-medium">I was arrested for DWI.  Why did they take my license plates?</h3>
-
-                <p class="desk-show wyn-statement-3">Minnesota will confiscate license plates and issue special plates if you are arrested for DWI and have one aggravating factor.  <span id="wyn-reveal-3">Even a first offense DWI can trigger special plate requirements. These special plates are referred to as “whiskey plates” because they begin with the letter W.
-                </span></p>
-
-            </div>
-
-            <div class="columns small-3 large-3 cta align-middle">
-
-                <div class="bot-align">
-
-                    <a href="#/" id="wyn-toggle-3" class="haa-track">Read More</a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-<div class="row r3-r3">
-
-    <div class="columns small-1 blue-bg">
-        &nbsp;
-    </div>
-
-    <div class="columns small-11 large-11 qs">
-
-     <h3 class="show-for-medium">Help, they’ve taken my car and are forfeiting it. Why?</h3>
-
-     <div class="row">
-
-        <div class="columns small-9 large-9">
-
-        <h3 class="hide-for-medium">Help, they’ve taken my car and are forfeiting it. Why?</h3>
-
-            <p class="desk-show wyn-statement-4">The state of Minnesota will seize and forfeit a motor vehicle for several offenses including a DWI with any two aggravating factors. 
-                <span id="wyn-reveal-4">
-                 This can include two prior convictions, one prior and over .16  etc.  A forfeiture can be challenged as a separate civil suit but special time constraints exist, so you must act quickly to reserve jurisdiction.
-             </span></p>
-
-         </div>
-
-         <div class="columns small-3 large-3 cta align-middle">
-
-            <div class="bot-align">
-
-                <a href="#/" id="wyn-toggle-4" class="haa-track">Read More</a>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</div>
-
-</div>
-
-
 
 </div>
